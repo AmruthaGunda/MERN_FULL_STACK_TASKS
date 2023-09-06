@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vertical Navigation Bar</title>
+    <style>
+        /* Style for the sidebar container */
+        .sidebar {
+            height: 50%;
+            width: 250px;
+            position: fixed;
+            top:0;
+            left:0;
+            background-color: #73abc2;
+            padding-top: 20px;
+        }
+
+        /* Style for the links within the sidebar */
+        .sidebar a {
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(27, 60, 179);
+            display: block;
+        }
+
+        /* Change link color on hover */
+        .sidebar a:hover {
+            background-color: #e08918;
+        }
+        /* Style for the navigation bar */
+        ul.navbar {
+            list-style-type: none;
+            margin: 20px 60x 40px 100px;
+            padding: 10;
+            background-color: #cac5c5;
+            overflow: hidden;
+        }
+         /* Style for each navigation item */
+         li.nav-item {
+            float: right;
+        }
+
+        /* Style for the links */
+        li.nav-item a {
+            display: block;
+            color: rgb(26, 73, 225);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the background color of the links on hover */
+        li.nav-item a:hover {
+            background-color: #444343;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar container -->
+    <div class="sidebar">
+        <a href="#home">Home</a>
+        <a href="#Java">Java</a>
+        <a href="#CSS">CSS</a>
+        <a href="#HTML">HTML</a>
+        <a href="#Bootstrap">Bootstrap</a>
+    </div>
+    <ul class="navbar">
+        <li class="nav-item"><a href="#CSS">CSS</a></li>
+        <li class="nav-item"><a href="#HTML">HTML</a></li>
+        <li class="nav-item"><a href="#Java">Java</a></li>
+        <li class="nav-item"><a href="#Home">Home</a></li>
+    </ul>
+</body>
+</html>
